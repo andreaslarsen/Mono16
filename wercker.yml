@@ -1,0 +1,13 @@
+box: colman/fontforge-wercker
+build:
+    steps:
+        - script:
+            name: build the release
+            code: |
+                python build.py
+deploy:
+    steps:
+        - chase/ghr:
+            token: $GITHUB_TOKEN
+            input: release
+            replace: true
