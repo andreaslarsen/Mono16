@@ -62,7 +62,7 @@ def permutations():
         # Map the iteration's permutations using a bitmap
         bitmap = [i >> n & 1 for n in xrange(count)]
         for opts in _expand_options(bitmap):
-            yield opts
+            yield(int(float(i)/bitmap_max*100), opts)
 
 def build(dstdir, srcdir, font):
     # Ensure that the destination directory exists
@@ -71,7 +71,7 @@ def build(dstdir, srcdir, font):
     except OSError:
         pass
 
-    for opts in permutations():
+    for prcnt, opts in permutations():
         # Open the original font
         fnt = fontforge.open(join(srcdir, font))
 
@@ -86,9 +86,15 @@ def build(dstdir, srcdir, font):
             for oper in option.operations[opt]:
                 oper(fnt)
 
+        # Add the extension
+        name += ".ttf"
+
         # Output the file and cleanup
-        fnt.generate(name + ".ttf")
+        fnt.generate(name)
         fnt.close()
+
+        # Log progress to prevent Wercker from timing out
+        print(str(prcnt) + '%.. ' + name)
 
 # Operations
 ## NOTE:
