@@ -1,7 +1,6 @@
 #!/usr/bin/env python2.7
 # vim: sts=4 sw=4 ts=4 et
 
-from os import mkdir
 from fontbuilder import *
 
 # Configuration
@@ -12,7 +11,7 @@ source = "Source"
 output = "_release"
 
 ## Fonts to modify
-fonts = ['Mono16Normal.sfdir']
+fonts = ['Monoid.sfdir']
 
 # Options to generate
 conflicting(
