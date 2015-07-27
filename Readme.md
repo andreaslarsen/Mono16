@@ -21,14 +21,12 @@ The font contains more alternates than available on the webpage - see [Stylistic
 ###Editor Support (ligatures)
 
 #####Confirmed working
-* Atom - Mac, Win
+* Atom - Mac, Win, Linux
 * xCode - Mac
-* gedit - Linux
-
-#####Partly working
-* gVim - Linux
+* gedit - Windows, Linux
 
 #####Not working
+* gVim - Linux
 * GNOME Terminal (any of vi, nano, pico and so)
 * Konsole Terminal
 
