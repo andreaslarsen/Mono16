@@ -26,10 +26,9 @@ The font contains more alternates than available on the webpage - see [Stylistic
 * gedit - Linux
 
 #####Partly working
-* ?
+* gVim - Linux
 
 #####Not working
-* gVim - Linux
 * GNOME Terminal (any of vi, nano, pico and so)
 * Konsole Terminal
 
