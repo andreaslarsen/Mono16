@@ -49,17 +49,26 @@ I'm using OpenType features `calt` + `liga` to create the ligatures and add cont
 > Please add your findings to this readme if they aren't here already.
 
 ###Code Editors
+#### Confirmed Working
+- Atom
+- Brackets
+- Coda
+- Eclipse
+- gEdit
+- Smultron
+- UltraEdit
+- XCode
 
-| Working | Partly Working | Not Working |
-|---|---|---|
-| Atom | Visual Studio (liga with hyphens doesn't work) | gVim |
-| Brackets |  | libvte based terminals |
-| Eclipse |  | Notepad++ |
-| gEdit |  | Sublime Text |
-| Smultron |  | Xterm, Urxvt |
-| UltraEdit |  |  |
-| Xcode |   |   |
+#### Partly Working
+- Visual Studio (liga with hyphens doesn't work)
 
+#### Not Working
+- gVim
+- IntelliJ-based editors (PHPStorm, WebStorm, etc.)
+- libvte-based terminals
+- Notepad++
+- Sublime Text
+- Xterm, Urxvt
 
 ###Browsers
 | Working | Partly Working | Not Working |
