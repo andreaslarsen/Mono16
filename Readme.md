@@ -52,7 +52,7 @@ Monoid uses `calt` and Monoisome uses `calt` + `liga` which aren't supported by 
 
 | Working | Partly Working | Not Working |
 |:---|:---|:---|
-| Atom, Brackets, Coda, Eclipse, gEdit, Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹ | gVim, IntelliJ-based², libvte-based, Notepad++, Sublime, TextXterm, Urxvt |
+| Atom, Brackets, Coda, Eclipse, gEdit, Smultron, Terminal, UltraEdit, Xcode | Visual Studio¹ | gVim, IntelliJ-based², libvte-based, Notepad++, Sublime Text, Xterm, Urxvt |
 ¹ Ligatures with hyphens doesn't work  
 ² PHPStorm, WebStorm etc.
 
