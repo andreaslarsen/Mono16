@@ -1,7 +1,9 @@
-languagesystem DFLT dflt;
+languagesystem zyyy dflt;
+languagesystem zinh dflt;
 languagesystem latn dflt;
 languagesystem cyrl dflt;
 languagesystem grek dflt;
+languagesystem kana dflt;
 
 @wide = [A B C D E G H M N O P Q R S U V W X Z m w];
 @narrow = [i l period comma colon semicolon exclam];
