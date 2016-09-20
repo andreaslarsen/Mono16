@@ -18,6 +18,7 @@ Layer: 2 0 "Back 2" 1
 Layer: 3 0 "Back 3" 1
 PreferredKerning: 4
 XUID: [1021 365 -928128380 13773435]
+StyleMap: 0x0020
 FSType: 0
 OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
@@ -29,6 +30,7 @@ TTFWeight: 700
 TTFWidth: 4
 LineGap: 0
 VLineGap: 184
+Panose: 2 11 8 9 2 2 4 2 2 4
 OS2TypoAscent: 1664
 OS2TypoAOffset: 0
 OS2TypoDescent: -384
