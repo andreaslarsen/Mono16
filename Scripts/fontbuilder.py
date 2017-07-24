@@ -7,6 +7,11 @@ from itertools import compress
 from os import mkdir
 from os.path import basename, splitext, join
 
+try:
+    xrange          # Python 2
+except NameError:
+    xrange = range  # Python 3
+
 # Builder
 def style(name, does):
     if not isinstance(does, list):
